@@ -1,0 +1,12 @@
+.turned{
+    animation: fanonanimation 0.2s infinite;
+}
+
+@keyframes fanonanimation {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}

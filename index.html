@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Her Power Project</title>
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <div>
+        <button id="add-cart" onclick="addcartfunction()" class="btn btn-outline-success m-5">add cart</button>
+    </div>
+
+    <div>
+        <img id="fan" src="./image/images (1).png" alt="">
+        <button class="m-5" onclick="fanonoff()" id="turnon">TURN ON</button>
+    </div>
+     <script>
+         const btn = document.getElementById('turnon');
+         const fan = document.getElementById('fan');
+
+         function fanonoff(){
+            fan.classList.toggle('turned')
+         }
+    </script> 
+
+    
+    
+
+    <script src="js/script.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
